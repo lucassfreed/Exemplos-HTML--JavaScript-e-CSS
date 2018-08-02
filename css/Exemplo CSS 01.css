@@ -1,0 +1,36 @@
+.botao:hover {
+			background-color: black;
+			color: #00000;
+			text-transform: uppercase;
+		}
+		.botao {
+			display: block;
+			background-color: #EACE21;
+			color: #FFFFFF;
+			font-weight: bold;
+			width: 200px;
+			height: 40px;
+			text-decoration: none;
+			text-align: center;
+			border-radius: 20px;
+			border: 1px solid black;
+			border-top-color: blue;
+			border-bottom-color: blue;
+			/*border-color: deeppink;
+			border-width: 1px;
+			border-style: solid;*/
+		}
+		.imagem {
+			background-image: url("../imagens/a.png");
+			height: 1000px;
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+		.campo-texto {
+			border: 0;
+			border-bottom: 1px solid red;
+		}
+		.campo-texto:focus {
+			outline: none;
+			border-bottom: 1px solid yellow;
+		}
